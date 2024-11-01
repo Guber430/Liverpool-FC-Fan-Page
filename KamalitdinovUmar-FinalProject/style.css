@@ -1,0 +1,311 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #cb442f;
+    color: #fff;
+    margin: 0;
+}
+
+nav {
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    border-radius: 5px;
+    color: #fff;
+    margin: 0 10px;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #81c3d7;
+}
+
+body,
+button,
+h1,
+h2,
+p,
+.player-button,
+.player-name,
+.player-number,
+.player-position,
+.player-stats {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 1em;
+    text-align: center;
+}
+
+button {
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 10px;
+    padding: 5px 10px;
+    width: 125px;
+}
+
+button:hover {
+    background-color: #81c3d7;
+}
+
+.liver-home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
+        url("images/liverpool-win.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 80px 12px;
+}
+
+.liver-home img {
+    display: block;
+    height: auto;
+    margin: auto;
+    width: 75%;
+}
+
+.news-container {
+    display: block;
+}
+
+.news-item {
+    border-bottom: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.news-item img {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.news-item:hover {
+    background-color: #c1adad;
+}
+
+.news-item h3 {
+    margin-top: 0;
+}
+
+.news-item p {
+    margin-bottom: 0;
+}
+
+.news-pic {
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.news-pic img{
+    display: block;
+    height: auto;
+    margin-bottom: 20px;
+    object-fit: cover;
+    width: 80%;
+}
+
+.news-pic:hover {background-color: #c1adad;}
+
+h3 {
+    font-size: 20px;
+    margin: 15px 0 10px;
+}
+
+p {
+    margin: 0 10px 15px;
+}
+
+.section {
+    padding: 20px;
+}
+
+.section-heading {
+    background-color: #111;
+    border-radius: 20px;
+    display: inline-block;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+.position-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.player-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.player-box {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    width: 300px;
+}
+
+.player-img {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+.player-number {padding: 5px 10px;}
+
+.player-info {margin-top: 40px;}
+
+.player-name {font-weight:bolder;}
+
+.player-button {
+    background-color: #007bff;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.player-button:hover {background-color: #0056b3;}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid transparent;
+    padding: 8px;
+    text-align: center;
+}
+
+.club-logo {
+    height: auto;
+    margin-right: 5px;
+    width: 40px;
+}
+
+.club-name {
+    align-items: center;
+    display: flex;
+}
+
+.section-logo {
+    margin-top: -60px;
+    text-align: right;
+}
+
+.section-logo img {
+    height: 100px;
+    width: 100px;
+}
+
+.mem-moment {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.mem-moment h2 {
+    margin-bottom: 10px;
+}
+
+.mem-moment img {
+    display: block;
+    height: auto;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.mem-moment-desc {
+    text-align: justify;
+}
+
+.mem-moment-desc p {
+    margin-bottom: 10px;
+}
+
+.white-background-block {
+    background-color: white;
+    height: 20px;
+    width: 100%;
+}
+
+footer {
+    background-color: #c41e3a;
+    padding: 1em;
+}
+
+@media screen and (max-width: 480px) {
+    nav {padding: 5px;}
+    nav a {
+        font-size: 0.8em;
+        margin: 5px;
+        padding: 5px 10px;
+    }
+    .section-logo {
+        margin-top: -40px;
+        text-align: center;
+    }
+    .section-logo img {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 3em;
+    }
+    .liver-home img {
+        width: 40%;
+    }
+    .news-item {
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    .liver-home img {
+        width: 55%;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .liver-home img {
+        width: 45%;
+    }
+}
