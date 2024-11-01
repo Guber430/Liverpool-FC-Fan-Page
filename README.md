@@ -1,1 +1,1 @@
-# Liverpool-FC-Fan-Page
+Developed a responsive, four-page website showcasing Liverpool Football Club content with HTML5 and CSS, featuring grid layouts, consistent typography, and navigation optimized for various screen sizes using media queries. Utilized CSS Grid for structured layouts and implemented dynamic sections like Premier League table and memorable moments with a consistent colour scheme.
